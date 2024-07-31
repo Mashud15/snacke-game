@@ -1,6 +1,4 @@
-name: Snack game
-
-# Trigger deployment only on push to main branch
+name: Snack Game
 on:
   push:
     branches:
