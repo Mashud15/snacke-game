@@ -1,0 +1,27 @@
+{
+    "family": "testgame",
+    "networkMode": "awsvpc",
+    "containerDefinitions": [
+      {
+        "name": "testgame",
+        "image": "654654194612.dkr.ecr.ap-south-1.amazonaws.com/testgame:latest",
+        "essential": true,
+        "memory": 512,
+        "cpu": 256,
+        "portMappings": [
+          {
+            "containerPort": 80,
+            "hostPort": 80
+          }
+        ]
+      }
+    ],
+    "requiresCompatibilities": [
+      "FARGATE"
+    ],
+    "cpu": "256",
+    "memory": "512",
+    "executionRoleArn": "arn:aws:iam::654654194612:role/ecsTaskExecutionRole",
+    "taskRoleArn": "arn:aws:ecs:ap-south-1:654654194612:task/MashGame/0b210823ce374b30b4ff9239ed15f80a"
+  }
+  
