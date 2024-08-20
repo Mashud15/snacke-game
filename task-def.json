@@ -22,6 +22,7 @@
     "cpu": "256",
     "memory": "512",
     "executionRoleArn": "arn:aws:iam::654654194612:role/ecsTaskExecutionRole",
-    "taskRoleArn": "arn:aws:ecs:ap-south-1:654654194612:task/MashGame/0b210823ce374b30b4ff9239ed15f80a"
+    "taskRoleArn": "arn:aws:iam::654654194612:role/MashudRole"
+    
   }
   
